@@ -9,7 +9,7 @@
 body{
     background: #545353;
     color: white;
-    cursor: url("images/assets/cursor/cursor_interact.png"), auto;
+    cursor: url("cursor/cursor_interact.png"), auto;
 }
 
 .logo img{
@@ -34,7 +34,7 @@ body{
 }
 
 .hero{
-    background-image: url(images/assets/background/background_2024.gif);
+    background-image: url(background/background_2024.gif);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@ section{
 }
 
 .about, .jobs{
-    background-image: url(images/assets/background/buildings.png);
+    background-image: url(background/buildings.png);
     background: #111;
 }
 
@@ -95,7 +95,7 @@ section{
 }
 
 .icons{
-    background-image: url(images/assets/background/bg_main.png);
+    background-image: url(background/bg_main.png);
     margin: 30px;
     padding: 15px;
     border-bottom: 1px solid #333;
@@ -121,4 +121,5 @@ footer{
     .logo img{
         height: 32px;
     }
+
 }
