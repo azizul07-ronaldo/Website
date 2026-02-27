@@ -1,70 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAID STUDIO</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raid Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-     <header class="navbar">
-        <div class="logo"><a href=""><img src="one_raid_studio_256x256.png" alt="RAIDSTUDIO logo"></a></div>
-        <nav>
-            <a href="#items"><b>ITEMS</b></a>
-            <a href="#icons"><b>ICONS</b></a>
-            <a href="#contacts"><b>CONTACT US</b></a>
-        </nav>
-    </header>
-    <section class="hero">
-        <h1><b>Our aim, your happiness</b></h1>
-        <p>We bring joy through innovative gaming experiences.</p>
-    </section>
-    <section class="about">
-        <h2>About Us</h2>
-        <p> We specialize in creating innovative User-Generated Content (UGC) including immersive servers, custom items and unique gameplay experiences.
-    </section>
-    <section id="items" class="items">
-        <h1>EXPLORE OUR ITEMS</h1>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo"><a href="#logo"><img src="images/one_raid_studio_256x256.png" alt="RAIDSTUDIO logo"></a></div>
+      <ul class="nav-links">
+        <li><a href="#packs">Packs</a></li>
+        <li><a href="#hiring">Our Employees</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
 
-        <div class="items-grid">
-            <div class="items-card">
-                <img src="gallery/g1_pixelart_full.png" alt="">
-                <h3>Pixel Arts</h3>
-            </div>
-            <div class="items-card">
-                <img src="gallery/g2_items_full.png" alt="">
-                <h3>Items</h3>
-            </div>
-            <div class="items-card">
-                <img src="gallery/g3_ui_full.png" alt="">
-                <h3>Game UIs</h3>
-            </div>
-            <div class="items-card">
-                <img src="gallery/g4_em_full.png" alt="">
-                <h3>Escape Menu</h3>
-            </div>
-            <div class="items-card">
-                <img src="gallery/g5_full.png" alt="">
-                <h3>Icon Textures</h3>
-            </div>
+  <header class="hero">
+    <div class="container text-center">
+      <h1>Welcome to RAID Studio</h1>
+      <p>We're offering Hytale Skins and Items here. Feel free to explore our website.</p>
+    </div>
+  </header>
+
+  <section class="about-wrapper" id="about">
+    <div class="container about-content">
+      <h1><b>About us</b></h1>
+      <p><b>Our primary focus is on the creation of innovative User-Generated Content (UGC) for Hytale, including Marketplace items, immersive servers, and unique gameplay experiences. Among our various projects, "Hybox" stands out as our most renowned creation, redefining the boundaries of UGC within the Hytale universe.</b></p>
+    </div>
+    <div class="about-image">
+  <img src="images/assets/experience/pp_freelance.png" alt="Minecraft UGC Creation" class="about-real-image">
+</div>
+  </section>
+
+  <section class="packs-content container" id="packs">
+    <h2>Explore Our Packs</h2>
+    <div class="packs-grid">
+      <div class="packs-card">
+        <div class="packs-img"><img src="images/assets/gallery/g2_items_full.png" alt=""></div>
+        <h3>ITEMS</h3>
+        <p>SWORDS</p>
+      </div>
+      <div class="packs-card">
+        <div class="packs-img"><img src="images/assets/gallery/g1_pixelart_full.png" alt=""></div>
+        <h3>PIXEL ARTS</h3>
+        <p>DESIGNS</p>
+      </div>
+      <div class="packs-card">
+        <div class="packs-img"><img src="images/assets/gallery/g5_full.png" alt=""></div>
+        <h3>ICONS</h3>
+        <p>TEXTURES</p>
+      </div>
+      <div class="packs-card">
+        <div class="packs-img"><img src="images/assets/gallery/g6_full.png" alt=""></div>
+        <h3>CHAT</h3>
+        <p>NPCs</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hiring-section container" id="hiring">
+    <h2 class="hiring-title">OUR EMPLOYEES</h2>
+    
+    <div class="cards-container">
+      <div class="card">
+        <div class="card-header">
+          <h3>Project Manager</h3>
+          <span class="badge-urgent">🔥 PRO</span>
         </div>
-    </section>
-    <section id="icons" class="icons">
-        <h2>OUR ICONS</h2>
-
-        <div class="icon-list">
-            <div class="icon"><img src="icons/ico_about_me.png" alt=""></div>
-            <div class="icon"><img src="icons/ico_back_home.png" alt=""></div>
-            <div class="icon"><img src="icons/ico_exp.png" alt=""></div>
+        <div class="meta-list">
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            <span>SADMAN SAKIB</span>
+          </div>
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Full-Remote / Home or Wherever</span>
+          </div>
         </div>
-    </section>
-    <footer id="contacts">
-        <p>RAIDSTUDIO</p>
-        <p>Whatever</p>
-        <p>whenever</p>
-    </footer>
+        <p class="card-description">
+          As our Project Manager, He is oversee the full coordination of our next Hytale server project. His responsibilities is including managing communication strategies, technical configuration, task planning, and team supervision.
+        </p>
+        <div class="btn-container">
+          <a href="#" class="btn-contact">Contact SADMAN</a>
+        </div>
+      </div>
 
-<script src="script.js"></script>
+      <div class="card">
+        <div class="card-header">
+          <h3>Website Developer</h3>
+          <span class="badge-urgent">🔥 NOOB</span>
+        </div>
+        <div class="meta-list">
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            <span>AZIZUL HAKIM</span>
+          </div>
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Full-Remote / Home or Wherever</span>
+          </div>
+        </div>
+        <p class="card-description">
+          As our Web Developer, he is directly involved in creating websites, managing builders, and designing models for our projects. This hands-on role made a strong artistic vision and the ability to collaborate with various teams.
+        </p>
+        <div class="btn-container">
+          <a href="#" class="btn-contact">Contact AZIZUL</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container footer-content">
+      <div class="footer-logo"><img src="images/assets/logo/raeden_logo_main_4x_hovered.png" alt=""><br>RAID STUDIO</div>
+      <div class="footer-details">
+        <p>REGISTRATION NUMBER: 949 296 313</p>
+        <p>Address: 9 RUE DES COLONNES, 75002 PARIS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
